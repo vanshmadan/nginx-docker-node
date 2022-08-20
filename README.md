@@ -9,6 +9,9 @@
  - An A record with www.your_domain pointing to your server’s public IP address.
 
 
+## To run it with ssl
+
+
 1) Git clone below repo
 ```bash
 git clone https://github.com/vanshmadan/nginx-docker-node.git
