@@ -8,9 +8,10 @@
  - An A record with your_domain pointing to your server’s public IP address.
  - An A record with www.your_domain pointing to your server’s public IP address.
 
-1) Git clone 
+
+1) Git clone below repo
 ```bash
-https://github.com/vanshmadan/nginx-docker-node.git
+git clone https://github.com/vanshmadan/nginx-docker-node.git
 ```
 
 2) Build nginx docker image
