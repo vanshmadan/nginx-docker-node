@@ -1,10 +1,10 @@
 ## Prerequisite
 
-Docker and Docker-compose must be installed 
+1) Docker and Docker-compose must be installed 
 
-A registered domain name
+2) A registered domain name
 
-Both of the following DNS records set up for your server:
+3) Both of the following DNS records set up for your server:
  - An A record with your_domain pointing to your server’s public IP address.
  - An A record with www.your_domain pointing to your server’s public IP address.
 
