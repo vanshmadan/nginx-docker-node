@@ -1,8 +1,25 @@
 ## Prerequisite
 
+Docker and Docker-compose must be installed 
+
+A registered domain name
 
 Both of the following DNS records set up for your server:
  - An A record with your_domain pointing to your server’s public IP address.
  - An A record with www.your_domain pointing to your server’s public IP address.
 
+1) Git clone 
+```bash
+https://github.com/vanshmadan/nginx-docker-node.git
+```
 
+2) Build nginx docker image
+```bash
+ docker build -t nginx:1.0.0 .
+```
+
+3) Run below commands
+```
+ chmod +x init-letsencrypt.sh 
+ sudo ./init-letsencrypt.sh
+```
